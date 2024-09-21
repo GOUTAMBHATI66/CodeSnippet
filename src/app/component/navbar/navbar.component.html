@@ -1,0 +1,18 @@
+<header class="w-full h-16 flex items-center justify-between px-3 gap-2">
+  <div class="text-3xl font-semibold cursor-pointer"><a routerLink="/">CodeSnippet</a>
+  </div>
+  <ul class="w-[50%] hidden md:flex items-center justify-end px-3 gap-2 ">
+    <li class=" bg-black/90  text-white rounded-md cursor-pointer px-2 py-1" routerLinkActive="Active && bg-blue-900"><a
+        routerLink="/codeSnippet">Snippet</a></li>
+    <li class=" bg-black/90 text-white rounded-md cursor-pointer px-2 py-1" routerLinkActive="Active && bg-blue-900"><a
+        routerLink="/about">About</a></li>
+    <li class=" bg-black/90 text-white rounded-md cursor-pointer px-2 py-1" routerLinkActive="Active && bg-blue-900"><a
+        routerLink="/sign-up">SignUp</a></li>
+    <li class=" bg-black/90 text-white rounded-md cursor-pointer px-2 py-1" routerLinkActive="Active && bg-blue-900"><a
+        routerLink="/sign-in">SignIn</a></li>
+  </ul>
+  <div
+    class="w-10 h-10 cursor-pointer flex items-center justify-center bg-gray-400 hover:bg-slate-400/70 rounded-full md:hidden">
+    <mat-icon>menu</mat-icon>
+  </div>
+</header>
